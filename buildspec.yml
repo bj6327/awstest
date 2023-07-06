@@ -13,6 +13,7 @@ phases:
       - echo Build completed
 artifacts:
   files:
+    - dbtest.jsp
     - test.jsp
     - index.html
     - scripts/server_start.sh
