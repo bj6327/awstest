@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 
 files:
-#   - source: /test.jsp
-#     destination: /home/ec2-user/tomcat/webapps/ROOT
+   - source: /dbtest.jsp
+     destination: /root/tomcat/webapps/ROOT
    - source: /index.html
      destination: /var/www/html
 
