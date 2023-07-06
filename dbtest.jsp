@@ -4,9 +4,9 @@
 <%
     	Connection conn=null;
     	try{
-            	String Url="jdbc:mysql://<DB주소>/<db이름>";
-            	String Id="<DB유저>";
-            	String Pass="<DB암호>";
+            	String Url="jdbc:mysql://database-1.clistmff8eli.ap-northeast-2.rds.amazonaws.com/mydb";
+            	String Id="admin";
+            	String Pass="test1234";
  
                 Class.forName("com.mysql.jdbc.Driver");
                 conn=DriverManager.getConnection(Url,Id,Pass);
